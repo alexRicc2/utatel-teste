@@ -28,13 +28,13 @@ module.exports = {
         // the only required plugin option for WordPress is the GraphQL url.
         url:
           process.env.WPGRAPHQL_URL ||
-          `https://interesting-mulch.localsite.io/graphql`,
+          `https://squeamish-transport.localsite.io/graphql`,
         //the list of custom fields to expose to Graphql
         customFields: ["readingTime"],
         auth: {
           htaccess: {
-            username: 'health',
-            password: 'scrawny',
+            username: 'expert',
+            password: 'verdant',
           }
         },
       },
