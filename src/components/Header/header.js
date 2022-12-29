@@ -2,7 +2,7 @@ import { graphql, Link, useStaticQuery } from "gatsby"
 import React, {useState} from "react"
 import logo from "../../images/logo.webp"
 import Container from '../ui/Container';
-import styles from './style.module.scss';
+import * as styles from './style.module.scss';
 import menu from '../../images/menu.svg';
 import menu_x from '../../images/menu_x.svg';
 import search_icon from '../../images/search.svg';
